@@ -11,6 +11,9 @@ import ResponseSender from '../../commonServices/ResponseSender/ResponseSender';
 
 
 
+
+
+
 export default async function fetchAllClients(req: Request, res: Response) {
 
     const clientId = req.params.id;
